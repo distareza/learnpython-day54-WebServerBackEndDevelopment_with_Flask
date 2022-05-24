@@ -47,30 +47,31 @@ inner_function
 
 ## Simple Python Decorator Functions
 import time
+from datetime import datetime
 
 def delay_decorator(function):
     def wrapper_function():
         time.sleep(2)
         #Do something before
         function()
-        function()
         #Do something after
     return wrapper_function
 
 @delay_decorator
 def say_hello():
-    print("Hello")
+    print(f"{datetime.now()} Hello")
 
 #With the @ syntactic sugar
 @delay_decorator
 def say_bye():
-    print("Bye")
+    print(f"{datetime.now()} Bye")
 
 #Without the @ syntactic sugar
 def say_greeting():
-    print("How are you?")
+    print(f"{datetime.now()} How are you?")
+
+say_hello()
 decorated_function = delay_decorator(say_greeting)
 decorated_function()
-
+say_greeting()
 say_bye()
-

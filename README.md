@@ -10,8 +10,8 @@ https://pypi.org/project/Flask/
 
 
 how to run in windows :
-![alt text](https://github.com/distareza/learnpython-day54-WebServerBackEndDevelopment_with_Flask/blob/master/resouces/InstallAndRunFlask_in_Windows.png?raw=true)  
+![alt text](https://github.com/distareza/learnpython-day54-WebServerBackEndDevelopment_with_Flask/blob/master/resources/InstallAndRunFlask_in_Windows.png?raw=true)  
 
 run as script :
-![alt text](https://github.com/distareza/learnpython-day54-WebServerBackEndDevelopment_with_Flask/blob/master/resouces/RunFlaskAsScript.png?raw=true)    
+![alt text](https://github.com/distareza/learnpython-day54-WebServerBackEndDevelopment_with_Flask/blob/master/resources/RunFlaskAsScript.png?raw=true)    
 
